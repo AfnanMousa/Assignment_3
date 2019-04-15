@@ -212,12 +212,12 @@ public class Ice_Hockey {
 				//System.out.println(final_result.get(t));
 			}
 		 index=arrange(index);
-		 for(int t=0;t<index.length;t++)
+		/* for(int t=0;t<index.length;t++)
 		 {
 			 System.out.println(index[t]);
-		 }
+		 }*/
 			//System.out.println();
-			return index;
+		return index;
 	 }
 	
 }
