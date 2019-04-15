@@ -3,7 +3,7 @@ package eg.edu.alexu.csd.datastructure.iceHockey.cs15;
 import java.awt.Point;
 import java.util.LinkedList;
 
-public class Ice_Hockey {
+public class Ice_Hockey implements IPlayersFinder{
 	public static String to_string(int i,int j)
 	{
 		String x=Integer.toString(i);
@@ -108,7 +108,7 @@ public class Ice_Hockey {
 		}
 		return x;
 	}
-	public static java.awt.Point[] findPlayer(String []photo,int team,int thersheld)
+	public  java.awt.Point[] findPlayers(String []photo,int team,int thersheld)
 	 {
 		 int [][]table=new int [photo.length][photo[0].length()];
 		
